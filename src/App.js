@@ -1,4 +1,6 @@
-import Navbar from "./components/Navbar/Navbar"
+import Navbar from "./components/Navbar/Navbar";
+import Intro from "./components/Intro/Intro";
+import AboutMe from "./components/AboutMe/AboutMe";
 import './App.css';
 import { useContext } from "react";
 import { themeContext } from "./Context";
@@ -13,8 +15,10 @@ function App() {
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
       }}>
-     Manish Portfoloi
+     
      <Navbar />
+     <Intro/>
+     <AboutMe/>
     </div>
   );
 }
