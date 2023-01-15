@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.473191f0.css",
-    "main.js": "/static/js/main.db3525bf.js",
-    "static/media/profile.jpg": "/static/media/profile.a1e49a7181be479a7113.jpg",
-    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
-    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.cac6b71d.js",
+    "static/js/787.f35f70c9.chunk.js": "/static/js/787.f35f70c9.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.ca94ab5bdf4cedb49e19.jpg",
+    "static/media/Indiegogo.png": "/static/media/Indiegogo.b2ecc25621930f83c585.png",
+    "static/media/Modesen.png": "/static/media/Modesen.3a9c61daf26f8121aa36.png",
+    "static/media/google-project.png": "/static/media/google-project.1f0307000ab17fd0dc81.png",
+    "static/media/Nordstrom.png": "/static/media/Nordstrom.b330a201d9d7b03b8130.png",
+    "static/media/logo.png": "/static/media/logo.011faf8d6ff9fd39b921.png",
+    "static/media/css3.svg": "/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
     "index.html": "/index.html",
-    "main.473191f0.css.map": "/static/css/main.473191f0.css.map",
-    "main.db3525bf.js.map": "/static/js/main.db3525bf.js.map"
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.cac6b71d.js.map": "/static/js/main.cac6b71d.js.map",
+    "787.f35f70c9.chunk.js.map": "/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.473191f0.css",
-    "static/js/main.db3525bf.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.cac6b71d.js"
   ]
 }
