@@ -1,6 +1,6 @@
 import React from "react";
 import { SkillsDiv } from "../css/Skills.styled";
-import { FaReact } from "react-icons/fa";
+// import { FaReact } from "react-icons/fa";
 import { Fade } from "react-awesome-reveal";
 import {
   SiJavascript,
@@ -27,7 +27,7 @@ import {
  
   SiBootstrap,
 } from "react-icons/si";
-import JWT from "../assets/skillsIcon/css3.svg";
+
 
 import { VscJson } from "react-icons/vsc";
 

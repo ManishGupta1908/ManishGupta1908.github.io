@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import NavbarDiv from "../css/NavbarDiv.styled";
-import { BsFillSunFill, BsMoonStarsFill } from "react-icons/bs";
+
 import { VscChromeClose } from "react-icons/vsc";
 import { FaBars } from "react-icons/fa";
-import { animateScroll, Link, scroller } from "react-scroll";
+import { animateScroll, scroller } from "react-scroll";
 import logo from "../assets/image/logo.png";
 //import { animateTopScroll } from "react-scroll";
 
