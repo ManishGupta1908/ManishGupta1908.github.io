@@ -68,7 +68,7 @@ const Calender = () => {
         }}
       >
         <img
-        style={{width:"85%"}}
+        style={{width:"80%"}}
           src="https://ghchart.rshah.org/ManishGupta1908"
           alt="gitCalender"
         />

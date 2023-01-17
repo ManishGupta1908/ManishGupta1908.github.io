@@ -20,7 +20,7 @@
       <p style={{ display: "flex", justifyContent: "center" }}>
         &nbsp;
         <img
-         style={{width:"85%"}}
+         style={{width:"45%"}}
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=ManishGupta1908&show_icons=true&locale=en"
           alt="stats"
@@ -38,7 +38,7 @@
         }}
       >
         <img
-          style={{width:"85%"}}
+          style={{width:"45%"}}
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=ManishGupta1908&"
           alt="streak-stats"
