@@ -20,7 +20,7 @@ const Navbar = () => {
   };
   return (
     <NavbarDiv showMenu={showMenu}>
-      <div className="navContainer">
+      <div id="nav-menu">
         <div className="logo" onClick={() => animateScroll.scrollToTop()}>
           <img src={logo} alt="" />
          
@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <div className="options">
           <ul>
-            <li
+            <li className="nav-link home"
               onClick={() => {
                 animateScroll.scrollToTop();
                 setShowMenu(false);
@@ -36,7 +36,7 @@ const Navbar = () => {
             >
               Home{" "}
             </li>
-            <li
+            <li className="nav-link about"
               onClick={() => {
                 scrollTo("about");
                 setShowMenu(false);
@@ -44,7 +44,7 @@ const Navbar = () => {
             >
               About
             </li>
-            <li
+            <li className="nav-link skills"
               onClick={() => {
                 scrollTo("skills");
                 setShowMenu(false);
@@ -52,7 +52,7 @@ const Navbar = () => {
             >
               Skills
             </li>
-            <li
+            <li className="nav-link projects"
               onClick={() => {
                 scrollTo("projects");
                 setShowMenu(false);
@@ -60,13 +60,18 @@ const Navbar = () => {
             >
               Projects
             </li>
-            <li
+            <li className="nav-link contact"
               onClick={() => {
                 scrollTo("footer");
                 setShowMenu(false);
               }}
             >
               Contact
+            </li>
+            <li id="resume-link-1" className="nav-link resume">
+            <a href="https://drive.google.com/file/d/1S7BtRAfUUm3Vq2ZKTEx6cphES7QML2c8/view?usp=share_link"
+                  >Resume</a>
+
             </li>
           </ul>
         </div>

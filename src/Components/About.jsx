@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 //import AboutPic from "../assets/image/aboutPic.webp";
 const About = () => {
   return (
-    <AboutDiv id="about">
+    <AboutDiv id="about" className="about section">
       <div className="conatainerAbout">
        
         <Fade direction="left" className="iconContainer">
@@ -13,7 +13,7 @@ const About = () => {
         </Fade>
         {/* </div> */}
 
-        <div className="aboutDesc">
+        <div id="user-detail-intro" className="aboutDesc">
           <Fade direction="left">
             <h1 className="subTitle">About me</h1>
             <p className="desc">

@@ -43,7 +43,7 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     align-items: flex-start;
 
-    .title {
+    .project-title {
       font-size: 26px;
       font-weight: 500;
       margin-bottom: -10px;
@@ -54,7 +54,7 @@ const Wrapper = styled.div`
     .rank{
       background : darkslategray;
       padding : 3px 5px;
-      border-radios : 6px;
+      border-radius : 6px;
       margin-bottom : -8px;
     }
     .rankDiv{
@@ -177,19 +177,19 @@ const Signleproject = ({
       <div className="descCon">
         <Fade direction="up" duration={800}>
 
-          <p className="title">{title}</p>
+          <p className="project-title">{title}</p>
          
           {/* <p  className="rank">{rank ? "Got 2nd Rank in construct week at MASAI School" : ""}</p> */}
 
-          <p>{desc}</p>
-          <p>{techStack}</p>
+          <p className="project-description">{desc}</p>
+          <p className="project-tech-stack">{techStack}</p>
           <p>{team}</p>
           {/* <p>{rank ? "Got 2nd Rank in construct week at MASAI School" : ""}</p  > */}
         </Fade>
       </div>
       <div className="buttonsCon">
         <Fade direction="up" duration={800}>
-          <button>
+          <button className="project-github-link">
             <a href={git} className="iconLink" target={"_blank"}>
               <p>Source Code</p>
               <span>
@@ -197,7 +197,7 @@ const Signleproject = ({
               </span>
             </a>
           </button>
-          <button>
+          <button className="project-deployed-link">
             <a href={deployed} className="iconLink" target={"_blank"}>
               <p>Live</p>
               <span>

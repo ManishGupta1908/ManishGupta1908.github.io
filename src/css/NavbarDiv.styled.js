@@ -11,7 +11,7 @@ const NavbarDiv = styled.nav`
   /* Dark MOde */
   background-color: #000000;
   color: #ffffff;
-  .navContainer {
+  #nav-menu {
      
     height: 100%;
     margin: auto;
@@ -29,7 +29,7 @@ const NavbarDiv = styled.nav`
 
       padding: 0 15px;
       width: 30%;
-      height: 100%;
+      height: 95%;
       gap: 6px;
       font-size: 24px;
       font-weight: 500;
@@ -123,7 +123,7 @@ const NavbarDiv = styled.nav`
     }
   }
   @media (max-width: 998px) {
-    .navContainer {
+    #nav-menu {
       padding: 0 20px;
 
       .logo {
@@ -142,7 +142,7 @@ const NavbarDiv = styled.nav`
   }
 
   @media (max-width: 850px) {
-    .navContainer {
+    #nav-menu {
       box-sizing: border-box;
       width: 100%;
       padding: 0;
@@ -164,7 +164,7 @@ const NavbarDiv = styled.nav`
   }
 
   @media (max-width: 675px) {
-    .navContainer {
+    #nav-menu {
       box-sizing: border-box;
       /* padding: 10px; */
       width: 90%;

@@ -9,7 +9,7 @@ import { Fade } from "react-awesome-reveal";
 import { BsTelephoneFill } from "react-icons/bs";
 const Footer = () => {
   return (
-    <FooterCon id="footer">
+    <FooterCon id="contact">
       <h1 className="subTitle">Contact Me</h1>
       <div className="footerCon">
         <Fade direction="up">
@@ -37,7 +37,7 @@ const Footer = () => {
               <span>Github</span>
             </a>
           </div>
-          <div>
+          <div id="contact-email">
             <a
              
               className="links"
@@ -50,7 +50,7 @@ const Footer = () => {
               <span>manscans16@gmail.com</span>
             </a>
           </div>
-          <div>
+          <div id="contact-phone">
             <p className="links disabled">
               <span>
                 <BsTelephoneFill />

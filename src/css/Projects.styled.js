@@ -13,7 +13,7 @@ const ProjectsCon = styled.div`
   flex-direction: column;
   align-items: center;
   //Container
-  .projectCon {
+  .project-card {
     box-sizing: border-box;
     padding: 50px 0;
     /* border: 1px solid white; */
@@ -38,26 +38,26 @@ const ProjectsCon = styled.div`
   }
 
   @media (max-width: 1430px) {
-    .projectCon {
+    .project-card {
       width: 100%;
     }
   }
 
   @media (max-width: 1160px) {
-    .projectCon {
+    .project-card {
       column-gap: 100px;
     }
   }
 
   @media (max-width: 1160px) {
-    .projectCon {
+    .project-card {
       column-gap: 80px;
       grid-template-columns: repeat(2, 400px);
     }
   }
 
   @media (max-width: 950px) {
-    .projectCon {
+    .project-card {
       /* column-gap: 60px; */
       grid-template-columns: repeat(1, 400px);
     }
@@ -65,7 +65,7 @@ const ProjectsCon = styled.div`
 
   @media (max-width: 600px) {
     padding: 20px 0;
-    .projectCon {
+    .project-card {
       padding: 30px 0;
       /* column-gap: 60px; */
       grid-template-columns: repeat(1, 400px);
@@ -73,7 +73,7 @@ const ProjectsCon = styled.div`
   }
 
   @media (max-width: 470px) {
-    .projectCon {
+    .project-card {
       /* column-gap: 60px; */
       grid-template-columns: repeat(1, 340px);
 

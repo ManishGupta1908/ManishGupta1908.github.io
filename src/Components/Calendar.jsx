@@ -55,7 +55,7 @@ const Calender = () => {
         transition: " all 0.3s ease",
       }}
     >
-      <div>
+      <div className="react-activity-calendar">
         <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
           My Github Calender
         </h1>

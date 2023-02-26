@@ -68,7 +68,7 @@ const Projects = () => {
     <>   
      <ProjectsCon id="projects">
       <h1 style={{ color: "white" }} className="subTitle">Projects</h1>
-      <div className="projectCon">
+      <div className="project-card">
         {data.map((el) => {
           return <Singleproject key={el.id} {...el} />;
         })}

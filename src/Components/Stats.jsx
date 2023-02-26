@@ -17,7 +17,7 @@
       <h1 style={{ textAlign: "center", marginBottom: "10px" }}>
         My Statistics
       </h1>
-      <p style={{ display: "flex", justifyContent: "center" }}>
+      <p  id="github-stats-card" style={{ display: "flex", justifyContent: "center" }}>
         &nbsp;
         <img
          style={{width:"45%"}}
@@ -27,7 +27,7 @@
         />
       </p>
 
-      <p
+      <p id="github-streak-stats"
         style={{
           display: "flex",
           justifyContent: "center",

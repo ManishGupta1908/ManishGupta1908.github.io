@@ -10,7 +10,7 @@ const BannerCon = styled.div`
   width: 100%;
   background-color: #C8CAd9;
 
-  color: #00000;
+  color: #000000;
 
   //Container
   .bannerContainer {
@@ -203,7 +203,7 @@ const BannerCon = styled.div`
 
     //SecondChild
 
-    .imageContainer {
+    .home-img {
       height: 100%;
       display: flex;
       align-items: center;
@@ -220,7 +220,8 @@ const BannerCon = styled.div`
   }
 
   @media (max-width: 1148px) {
-    width: 100%;
+    /* width: 100%; */
+    
     /* height: 1000px; */
     /* padding: 0 30px; */
 
@@ -237,7 +238,7 @@ const BannerCon = styled.div`
         width: 100%;
       } */
 
-      .imageContainer {
+      .home-img {
         height: 100%;
         .avatar {
           height: 80%;
@@ -246,7 +247,7 @@ const BannerCon = styled.div`
     }
   }
   @media (max-width: 950px) {
-    height: auto;
+    /* height: auto; */
 
     .bannerContainer {
       width: 90%;
@@ -280,7 +281,7 @@ const BannerCon = styled.div`
         }
       }
 
-      .imageContainer {
+      .home-img {
         width: 300px;
         border-radius: 50%;
         /* background-color: #525d63; */
@@ -294,8 +295,8 @@ const BannerCon = styled.div`
     }
   }
   @media (max-width: 850px) {
-    padding: 0 50px;
-    box-sizing: border-box;
+    /* padding: 0 50px;
+    box-sizing: border-box; */
     .bannerContainer {
       gap: 15px;
       .typeWirter {
@@ -307,7 +308,7 @@ const BannerCon = styled.div`
         }
       }
 
-      .imageContainer {
+      .home-img {
         width: 200px;
         border-radius: 50%;
         .avatar {
@@ -348,7 +349,7 @@ const BannerCon = styled.div`
   }
 
   @media (max-width: 580px) {
-    padding: 0;
+    /* padding: 0; */
     .bannerContainer {
       width: 100%;
 

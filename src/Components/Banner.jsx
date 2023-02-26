@@ -10,10 +10,11 @@ import { SiGmail } from "react-icons/si";
 const Banner = () => {
   return (
     <BannerCon>
-      <div className="bannerContainer">
-        <div className="typeWirter">
-          <div className="introMyself">
-            <p className="heading">Hi 👋, My name is Manish Gupta,</p>
+      <div id="home"  className="bannerContainer">
+        <div  className="typeWirter">
+          <div  className="introMyself">
+
+            <p id="user-detail-name" className="heading">Hi 👋, My name is Manish Gupta,</p>
             <div className="subHeading">
               <Typewriter
                 options={{
@@ -31,11 +32,9 @@ const Banner = () => {
             </div>
            
             <div className="typeButtons">
-              <button className="learn-more">
+              <button  id="resume-button-2" className="learn-more">
                 <a
-                  // href={
-                  //   "https://drive.google.com/drive/u/1/folders/1DSlHmR99S05j-tCqmgLncARfS3D2T46X"
-                  // }
+                 
                   href={
                     "https://drive.google.com/file/d/1S7BtRAfUUm3Vq2ZKTEx6cphES7QML2c8/view?usp=share_link"
                   }
@@ -50,13 +49,13 @@ const Banner = () => {
               {/* <button>Resume</button> */}
             </div>
             <div className="socialIconContainer">
-              <a
+              <a  id="contact-linkedin"
                 href="https://www.linkedin.com/in/manish-gupta-bb657b217"
                 target={"_blank"}
               >
                 <BsLinkedin className="socialIcons" />
               </a>
-              <a href="https://github.com/ManishGupta1908" target={"_blank"}>
+              <a id="contact-github" href="https://github.com/ManishGupta1908" target={"_blank"}>
                 <BsGithub className="socialIcons" />
               </a>
               
@@ -64,7 +63,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="imageContainer">
+        <div className="home-img">
           <img
             src={profile}
             alt=""

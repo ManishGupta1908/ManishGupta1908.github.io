@@ -43,11 +43,11 @@ const Skills = () => {
             <div className="frontEndSKills">
               <ul className="skillsList">
                 <Fade direction="up" duration={700}>
-                  <li>
-                    <span>
+                  <li className="skills-card">
+                    <span className="skills-card-img">
                       <SiReact fill="#53c1de" />
                     </span>
-                    <p>React.Js</p>
+                    <p className="skills-card-name">React.Js</p>
                   </li>
 
                   <li>
